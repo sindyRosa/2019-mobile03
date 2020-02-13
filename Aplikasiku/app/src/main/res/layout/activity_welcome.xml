@@ -96,14 +96,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edt_new_password"
         />
-
-    <?xml version="1.0" encoding="utf-8"?>
-    <shape xmlns:android="http://schemas.android.com/apk/res/android"
-        android:shape="rectangle">
-        <solid android:color="#F96060" />
-        <corners android:radius="5dp" />
-    </shape>
-
+    
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -119,3 +112,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />
+</androidx.constraintlayout.widget.ConstraintLayout>
